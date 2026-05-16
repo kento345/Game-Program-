@@ -125,6 +125,13 @@
   <ItemGroup>
     <ClCompile Include="main.cpp" />
   </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="kadai1.h" />
+    <ClInclude Include="kadai2.h" />
+    <ClInclude Include="kadai3.h" />
+    <ClInclude Include="kadai4.h" />
+    <ClInclude Include="kadai5.h" />
+  </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
   </ImportGroup>

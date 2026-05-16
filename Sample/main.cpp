@@ -1,4 +1,9 @@
 #include<iostream>
+#include"kadai1.h"
+#include"kadai2.h"
+#include"kadai3.h"
+#include"kadai4.h"
+#include"kadai5.h"
 
 using namespace std;
 
@@ -79,7 +84,21 @@ int main() {
 	}
 	* -----------------------------
 	*/
-
+	//‰Û‘è1
+	cout << "‰Û‘è1" << endl;
+    entry();
+	//‰Û‘è2
+	cout << "‰Û‘è2" << endl;
+	Max();
+	//‰Û‘è‚R
+	cout << "‰Û‘è3" << endl;
+	Task3();
+	//‰Û‘è4
+	cout << "‰Û‘è4" << endl;
+	Task4();
+	//‰Û‘è5
+	cout << "‰Û‘è5" << endl;
+	Task5();
 
 	return 0;
 }
