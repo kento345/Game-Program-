@@ -3,6 +3,11 @@
 
 using namespace std;
 
+/*
+* auto: 自動で型を推論する
+* &: 参照を表す
+*/
+
 int ages[4] = {
 		15,
 		32,
@@ -14,6 +19,7 @@ void arge(int value) {
 }
 
 void entry() {
+	//for文でagesの中身をpに一つずつ渡す
 	for (auto& p : ages) {
 		arge(p);
 	}
